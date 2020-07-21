@@ -1,0 +1,146 @@
+img {
+  display:block;
+}
+
+.wall{
+  width: 100%;
+  height: 100%;
+}
+
+.More {
+  position: absolute;
+  bottom: 20px;
+  font-size: 12px;
+  left:16px;
+  text-indent:30px;
+}
+
+@media (min-width:576px){
+  .More {
+    font-size:24px;
+  }
+}
+
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+}
+.info{
+  display: flex;
+  background: rgba(183, 24, 62, 0.95);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(183, 24, 62, 0.55);
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  font-family: Ruslan Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 0px;
+  color: black;
+  justify-content:center;
+  align-items: center;
+  margin: 20px
+
+}
+
+.homepagebutton1 {
+  margin: 27.5px
+}
+
+@media (min-width:576px){
+  .info {
+    font-size:40px;
+  }
+}
+
+@media (min-width:576px){
+  .info {
+    width:110px;
+    height:110px;
+  }
+}
+.About_me{
+  display: flex;
+  background: rgba(183, 24, 62, 0.95);
+  box-shadow: 0px 4px 4px rgba(183, 24, 62, 0.55);
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  font-family: Ruslan Display;
+  font-size: 20px;
+  color: black;
+  justify-content:center;
+  align-items: center;
+  margin: 20px
+}
+
+.homepagebutton2 {
+  margin: 27.5px
+}
+
+@media (min-width:576px){
+  .About_me {
+    font-size:35px;
+  }
+}
+
+@media (min-width:576px){
+  .About_me {
+    width:110px;
+    height:110px;
+  }
+}
+
+.Interest{
+  display: flex;
+  background: rgba(183, 24, 62, 0.95);
+  box-shadow: 0px 4px 4px rgba(183, 24, 62, 0.55);
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  font-family: Ruslan Display;
+  font-size: 20px;
+  color: black;
+  justify-content:center;
+  align-items: center;
+  margin: 20px
+}
+
+.homepagebutton3 {
+  margin: 27.5px
+}
+
+@media (min-width:576px){
+  .Interest {
+    font-size:32px;
+  }
+}
+
+@media (min-width:576px){
+  .Interest {
+    width:110px;
+    height:110px;
+  }
+}
+
+.frame {
+  display: flex;
+  width: auto;
+  height: 175px;
+  background: rgba(250, 250, 250, 0.49);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  vertical-align: center;
+}
+
+@media (min-width:576px){
+  .frame {
+    height:250px;
+  }
+}
